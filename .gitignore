@@ -174,3 +174,10 @@ cython_debug/
 .pypirc
 
 .idea/
+
+# Generated visualizations and results
+*.png
+*.jpg
+*.jpeg
+*.pdf
+experiment_results.json
