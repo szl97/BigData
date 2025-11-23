@@ -1,0 +1,27 @@
+{
+  "name": "mnist-visualization-analysis",
+  "version": "1.0.0",
+  "description": "MNIST handwritten digit recognition dataset visualization and analysis with automated Word report generation",
+  "main": "generate_mnist_report.js",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "generate-report": "node generate_mnist_report.js",
+    "analyze": "python3 data_analysis_and_visualization.py",
+    "full": "python3 data_analysis_and_visualization.py && node generate_mnist_report.js"
+  },
+  "keywords": [
+    "mnist",
+    "visualization",
+    "data-analysis",
+    "machine-learning",
+    "computer-vision"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^8.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
